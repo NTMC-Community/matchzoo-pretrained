@@ -12,7 +12,14 @@
 
 For example, a pre-trained DSSM (deep semantic structured model) on WiqiQA is named as:
 
-`matchzoo-dssm-wikiqa-ranking.h5`
+```
+    .
+    ├── ...
+    ├── matchzoo-dssm-wikiqa-ranking
+    │   ├── backend_weights.h5
+    │   ├── params.dill
+    └── ...
+```
 
 ## Citation
 
